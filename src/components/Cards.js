@@ -2,11 +2,12 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 import CardItem2 from './CardItem2';
+import CardItem3 from './CardItem3';
 
 function Cards() {
   return (
     <div className='cards'>
-      <h2>Popular Topics</h2>
+      <h2 className='pop'>Popular Topics</h2>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -23,6 +24,7 @@ function Cards() {
             <CardItem
               src='images/img-12.jpg'
               text='Payment'
+              path='/Payment'
             />
           </ul>
         </div>
@@ -38,6 +40,13 @@ function Cards() {
             />
              <CardItem2
               text='Paying for an Order, an Extra, or a Custom Offer'
+            />
+        </ul>
+        </div>
+        <div className='cards__container1'>
+          <ul className='cards__items1'>
+            <CardItem3
+              text='Cuntact us'
             />
         </ul>
         </div>

@@ -13,14 +13,17 @@ function Cards1() {
             <CardItem
               src='images/img-13.jpg'
               text='Policies'
+              path='/Policies'
             />
             <CardItem
               src='images/img-14.jpg'
-              text='Sellers Hub' 
+              text='Sellers Hub'
+              path='/SellerHub' 
             />
             <CardItem
               src='images/img-12.jpg'
               text='Withdrawals'
+              path='/Withdrawals'
             />
           </ul>
         </div>

@@ -87,6 +87,8 @@
 
 .footer-email-form h2 {
   margin-bottom: 2rem;
+  font-style: normal;
+  font-size: 10;
 }
 
 .footer-input::placeholder {

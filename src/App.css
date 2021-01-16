@@ -42,6 +42,25 @@
   color: #fff;
   font-size: 100px;
 }
+.p1 {
+  font-style: oblique;
+  margin-bottom:2.2em;
+}
+ul.PQ1 {
+  list-style-type: circle;
+  text-indent: 100px;
+  font-size: 20px;
+}
+h1.AppQ1 {
+  text-indent: 25px;
+  font-size: 50px;
+}
+h2.AppQ {
+  text-indent: 50px;
+  font-size: 30px;
+  font-style: oblique;
+}
+ 
 .active {
   background-color: #0099FF;
 }

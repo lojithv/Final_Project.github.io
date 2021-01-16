@@ -7,11 +7,14 @@ h1 {
   color: #000;
 }
 
-h2 {
+h2.pop {
   text-align: left;
+  font-size: 40px;
+  color: rgb(88, 85, 85);
 }
 h3 {
   text-align: left;
+  font-size: 60;
 }
 
 .cards__container {
@@ -29,7 +32,7 @@ h3 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  margin-bottom: 54px;
 }
 
 .cards__item {

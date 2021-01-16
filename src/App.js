@@ -8,6 +8,10 @@ import Others from './components/pages/Others';
 import SignUp from './components/pages/SignUp';
 import BoM from './components/pages/BoM';
 import Invoice from './components/pages/Invoice';
+import Payment from './components/pages/Payment';
+import Policies from './components/pages/Policies';
+import SellerHub from './components/pages/SellerHub';
+import Withdrawals from './components/pages/Withdrawals';
 
 function App() {
   return (
@@ -21,6 +25,11 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/bom' component={BoM} />
           <Route path='/invoice' component={Invoice} />
+          <Route path='/payment' component={Payment} />
+          <Route path='/policies' component={Policies} />
+          <Route path='/sellerhub' component={SellerHub} />
+          <Route path='/withdrawals' component={Withdrawals} />
+
         </Switch>
       </Router>
     </>
