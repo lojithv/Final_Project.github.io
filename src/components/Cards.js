@@ -29,7 +29,7 @@ function Cards() {
           </ul>
         </div>
       </div>
-      <h3>Recomanded for you</h3>
+      <h2>Recomanded for you</h2>
       <div className='cards__container'>
           <ul className='cards__items'>
             <CardItem2
