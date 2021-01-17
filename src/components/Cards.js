@@ -44,11 +44,7 @@ function Cards() {
         </ul>
         </div>
         <div className='cards__container1'>
-          <ul className='cards__items1'>
-            <CardItem3
-              text='Cuntact us'
-            />
-        </ul>
+            <h2 className='aboutus'>About Us</h2>
         </div>
     </div>
   );
