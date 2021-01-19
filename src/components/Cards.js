@@ -29,7 +29,7 @@ function Cards() {
           </ul>
         </div>
       </div>
-      <h2>Recomanded for you</h2>
+      <h3 className='Rec'>Recomanded for you</h3><br></br><br></br>
       <div className='cards__container'>
           <ul className='cards__items'>
             <CardItem2
@@ -44,7 +44,13 @@ function Cards() {
         </ul>
         </div>
         <div className='cards__container1'>
-            <h2 className='aboutus'>About Us</h2>
+            <h2 className='contactus'>Didn't find an answer to your question?</h2><br></br>
+            <ul className='cards__items1'>
+            <CardItem3 
+              src='images/img-15.jpg'
+              text='Contact Us'
+            />
+          </ul>
         </div>
     </div>
   );

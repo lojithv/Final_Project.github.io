@@ -4,10 +4,17 @@ import { Link } from 'react-router-dom';
 function CardItem3(props) {
   return (
     <>
-      <li className='cards__item1'>
-        <Link className='cards__item__link1' to={props.path}>
-          <div className='cards__item__info1'>
-            <h3 className='cards__item__text1'>{props.text}</h3>
+      <li className='cards__item'>
+        <Link className='cards__item__link' to={props.path}>
+          <figure className='cards__item__pic-wrap' data-category={props.label}>
+            <img
+              className='cards__item__img'
+              alt='Help Surpport'
+              src={props.src}
+            />
+          </figure>
+          <div className='cards__item__info'>
+            <h2 className='cards__item1__text'>{props.text}</h2>
           </div>
         </Link>
       </li>

@@ -93,7 +93,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #e9e6e6;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -148,6 +148,10 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+  }
+
+  .active {
+    background-color: #f1f1f1;
   }
 
   .nav-links-mobile:hover {

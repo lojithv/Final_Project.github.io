@@ -8,13 +8,21 @@ h1 {
 }
 
 h2.pop {
-  text-align: left;
+  text-align: center;
   font-size: 40px;
-  color: rgb(88, 85, 85);
+  color: rgb(88, 85, 85)
+}
+.pop {
+  border-bottom: 2px solid #E7E7E9;
 }
 h3 {
-  text-align: left;
-  font-size: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(88, 85, 85);
+  
+}
+.Rec {
+  border-bottom: 2px solid #E7E7E9;
 }
 
 h2.aboutus{
@@ -83,7 +91,6 @@ h2.aboutus{
   background-color: #1f98f4;
   box-sizing: border-box;
 }
-
 .cards__item__img {
   position: absolute;
   top: 0;
@@ -111,6 +118,20 @@ h2.aboutus{
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+}
+.cards__item1__text {
+  color: #252e48;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+}
+.cards__container1 {
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  max-width: 1120px;
+  width: 30%;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1200px) {
