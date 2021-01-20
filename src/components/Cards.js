@@ -34,12 +34,15 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem2
               text='Buyer FAQs'
+              path='/Payment'
             />
             <CardItem2
               text='Account and profile settings'
+              path='/Payment'
             />
              <CardItem2
               text='Paying for an Order, an Extra, or a Custom Offer'
+              path='/Payment'
             />
         </ul>
         </div>
