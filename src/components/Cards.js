@@ -34,11 +34,11 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem2
               text='Buyer FAQs'
-              path='/Payment'
+              path='/Recforu#target'
             />
             <CardItem2
               text='Account and profile settings'
-              path='/Payment'
+              path='/Recforu#target1'
             />
              <CardItem2
               text='Paying for an Order, an Extra, or a Custom Offer'

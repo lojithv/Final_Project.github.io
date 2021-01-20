@@ -12,6 +12,7 @@ import Payment from './components/pages/Payment';
 import Policies from './components/pages/Policies';
 import SellerHub from './components/pages/SellerHub';
 import Withdrawals from './components/pages/Withdrawals';
+import Recforu from './components/pages/Recforu';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/policies' component={Policies} />
           <Route path='/sellerhub' component={SellerHub} />
           <Route path='/withdrawals' component={Withdrawals} />
+          <Route path='/recforu' component={Recforu} />
 
         </Switch>
       </Router>
